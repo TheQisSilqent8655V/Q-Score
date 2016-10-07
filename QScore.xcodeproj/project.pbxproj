@@ -14,6 +14,9 @@
 		E2EDC9A21DA6E3BA00286178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EDC9A01DA6E3BA00286178 /* LaunchScreen.storyboard */; };
 		E2EDC9AD1DA6E3BB00286178 /* QScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDC9AC1DA6E3BB00286178 /* QScoreTests.swift */; };
 		E2EDC9B81DA6E3BB00286178 /* QScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDC9B71DA6E3BB00286178 /* QScoreUITests.swift */; };
+		E2EDC9C61DA7261A00286178 /* RankingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDC9C51DA7261A00286178 /* RankingsViewController.swift */; };
+		E2EDC9CC1DA72D0600286178 /* RankingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDC9CB1DA72D0600286178 /* RankingsTableViewCell.swift */; };
+		E2EDC9CE1DA72FC800286178 /* RankingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDC9CD1DA72FC800286178 /* RankingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E2EDC9B31DA6E3BB00286178 /* QScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EDC9B71DA6E3BB00286178 /* QScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QScoreUITests.swift; sourceTree = "<group>"; };
 		E2EDC9B91DA6E3BB00286178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EDC9C51DA7261A00286178 /* RankingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsViewController.swift; sourceTree = "<group>"; };
+		E2EDC9CB1DA72D0600286178 /* RankingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsTableViewCell.swift; sourceTree = "<group>"; };
+		E2EDC9CD1DA72FC800286178 /* RankingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				E2EDC9971DA6E3BA00286178 /* AppDelegate.swift */,
 				E2EDC9991DA6E3BA00286178 /* ViewController.swift */,
 				E2EDC99B1DA6E3BA00286178 /* Main.storyboard */,
+				E2EDC9C51DA7261A00286178 /* RankingsViewController.swift */,
+				E2EDC9CB1DA72D0600286178 /* RankingsTableViewCell.swift */,
+				E2EDC9CD1DA72FC800286178 /* RankingsTableViewController.swift */,
 				E2EDC99E1DA6E3BA00286178 /* Assets.xcassets */,
 				E2EDC9A01DA6E3BA00286178 /* LaunchScreen.storyboard */,
 				E2EDC9A31DA6E3BA00286178 /* Info.plist */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2EDC99A1DA6E3BA00286178 /* ViewController.swift in Sources */,
+				E2EDC9CC1DA72D0600286178 /* RankingsTableViewCell.swift in Sources */,
 				E2EDC9981DA6E3BA00286178 /* AppDelegate.swift in Sources */,
+				E2EDC9C61DA7261A00286178 /* RankingsViewController.swift in Sources */,
+				E2EDC9CE1DA72FC800286178 /* RankingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
