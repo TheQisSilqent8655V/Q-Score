@@ -51,7 +51,7 @@
                             </items>
                         </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="tAY-LL-bmQ" customClass="RankingsTableViewCell" customModule="QScore" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="7655" id="tAY-LL-bmQ" customClass="RankingsTableViewCell" customModule="QScore">
                                 <rect key="frame" x="0.0" y="72" width="1024" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tAY-LL-bmQ" id="8TT-wI-u93">
